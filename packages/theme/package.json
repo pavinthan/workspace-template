@@ -1,0 +1,26 @@
+{
+  "name": "@workspace/theme",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "@workspace/ui": "workspace:*",
+    "next-themes": "^0.4.4"
+  },
+  "devDependencies": {
+    "@workspace/typescript-config": "workspace:*",
+    "@types/react": "^19.0.0"
+  },
+  "peerDependencies": {
+    "next": "15.1.0",
+    "react": "^19.0.0",
+    "lucide-react": "0.456.0"
+  },
+  "exports": {
+    "./mode-toggle": "./src/mode-toggle.tsx",
+    "./provider": "./src/provider.tsx"
+  }
+}
