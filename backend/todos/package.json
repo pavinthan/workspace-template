@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/identity-backend",
+  "name": "@workspace/todos-backend",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@workspace/identity-backend": "workspace:*",
     "@aws-amplify/backend": "^1.14.1",
     "@aws-amplify/backend-cli": "^1.4.10",
     "aws-cdk": "^2",
