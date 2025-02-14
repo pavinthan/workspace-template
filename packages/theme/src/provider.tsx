@@ -1,1 +1,1 @@
-export { ThemeProvider, type ThemeProviderProps } from "next-themes";
+export { ThemeProvider, type ThemeProviderProps } from 'next-themes';

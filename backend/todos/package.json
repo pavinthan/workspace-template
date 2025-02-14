@@ -2,29 +2,29 @@
   "name": "@workspace/todos-backend",
   "version": "0.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "exports": {
+    "./amplify_outputs.json": "./amplify_outputs.json",
+    "./data/resource": "./amplify/data/resource.ts"
+  },
   "scripts": {
-    "lint": "eslint amplify --max-warnings 0",
+    "lint": "eslint --max-warnings 0",
     "sandbox": "npx ampx sandbox"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^6.13.0"
+  },
   "devDependencies": {
-    "@workspace/identity-backend": "workspace:*",
     "@aws-amplify/backend": "^1.14.1",
     "@aws-amplify/backend-cli": "^1.4.10",
+    "@workspace/identity-backend": "workspace:*",
     "aws-cdk": "^2",
     "aws-cdk-lib": "^2",
     "constructs": "^10.0.0",
     "esbuild": "^0.25.0",
     "tsx": "^4.19.2",
     "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "aws-amplify": "^6.13.0"
-  },
-  "exports": {
-    "./amplify_outputs.json": "./amplify_outputs.json",
-    "./data/resource": "./amplify/data/resource.ts"
   }
 }

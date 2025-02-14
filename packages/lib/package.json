@@ -1,0 +1,22 @@
+{
+  "name": "@workspace/lib",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "@aws-amplify/adapter-nextjs": "^1.4.0"
+  },
+  "devDependencies": {
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*"
+  },
+  "peerDependencies": {
+    "next": "^15.1.0"
+  }
+}

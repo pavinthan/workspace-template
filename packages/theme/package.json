@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "exports": {
+    "./mode-toggle": "./src/mode-toggle.tsx",
+    "./provider": "./src/provider.tsx"
+  },
   "scripts": {
     "lint": "eslint . --max-warnings 0"
   },
@@ -11,17 +15,13 @@
     "next-themes": "^0.4.4"
   },
   "devDependencies": {
+    "@types/react": "^19.0.0",
     "@workspace/eslint-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
-    "@types/react": "^19.0.0"
+    "@workspace/typescript-config": "workspace:*"
   },
   "peerDependencies": {
+    "lucide-react": "0.456.0",
     "next": "15.1.0",
-    "react": "^19.0.0",
-    "lucide-react": "0.456.0"
-  },
-  "exports": {
-    "./mode-toggle": "./src/mode-toggle.tsx",
-    "./provider": "./src/provider.tsx"
+    "react": "^19.0.0"
   }
 }
