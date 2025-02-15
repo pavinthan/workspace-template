@@ -10,7 +10,7 @@
     "./data/resource": "./amplify/data/resource.ts"
   },
   "scripts": {
-    "lint": "eslint --max-warnings 0",
+    "lint": "eslint . --max-warnings 0",
     "sandbox": "npx ampx sandbox"
   },
   "dependencies": {
