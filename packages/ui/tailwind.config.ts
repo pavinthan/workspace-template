@@ -6,6 +6,7 @@ const config = {
   darkMode: ['class'],
   content: [
     'src/**/*.{ts,tsx}',
+    '../../packages/theme/src/**/*.{ts,tsx}',
     '../../packages/ui/src/components/**/*.{ts,tsx}',
   ],
   theme: {
