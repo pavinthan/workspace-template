@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
-  assetPrefix: '/auth-static',
+  assetPrefix: '/admin-static',
   transpilePackages: ['@workspace/ui', '@workspace/theme'],
 };
 

@@ -29,4 +29,10 @@ export const config = [
   {
     ignores: ['dist/**'],
   },
+  {
+    env: {
+      node: true,
+      commonjs: true,
+    },
+  },
 ];

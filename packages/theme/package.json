@@ -1,8 +1,8 @@
 {
   "name": "@workspace/theme",
   "version": "0.0.0",
-  "type": "module",
   "private": true,
+  "type": "module",
   "exports": {
     "./mode-toggle": "./src/mode-toggle.tsx",
     "./provider": "./src/provider.tsx"
